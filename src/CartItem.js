@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 
 const CartItem =(props)=> {
 
@@ -7,7 +7,7 @@ const CartItem =(props)=> {
         return (
             <div className="cart-item">
                 <div className="left-block">
-                    <img style={style.image} />
+                    <img style={style.image} src={product.img}/>
                 </div>
                 <div className="right-block">
                     <div style={{ fontSize: 25 }}>{title}</div>

@@ -1,14 +1,14 @@
 import React from "react";
 
-const Navbar=(props)=>{
-        return (
-            <div style={styles.nav}>
-                <div style={styles.cartIconContainer}>
-                    <img style={styles.cartIcon} src="https://cdn-icons.flaticon.com/png/512/2838/premium/2838895.png?token=exp=1656501032~hmac=1c9a18570791f9813b3d91ba178910dc" />
-                    <span style={styles.cartCount}>3</span>
-                </div>
+const Navbar = (props) => {
+    return (
+        <div style={styles.nav}>
+            <div style={styles.cartIconContainer}>
+                <img style={styles.cartIcon} src="https://cdn-icons.flaticon.com/png/512/2838/premium/2838895.png?token=exp=1656654436~hmac=dc25192a4e15b1fef2f0b1cd10af209c" />
+                <span style={styles.cartCount}>{props.count}</span>
             </div>
-        );
+        </div>
+    );
 }
 
 
